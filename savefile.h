@@ -8,6 +8,11 @@ struct savefile
     struct profile
     {
         char name[4];
+        struct pb_set
+        {
+            int grill_skating;
+            int air_patty;
+        } pb;
     } slot1, slot2;
 };
 
