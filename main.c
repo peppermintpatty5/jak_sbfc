@@ -10,7 +10,8 @@ int main(void)
     freopen(NULL, "rb", stdin);
     read_savefile(&save, stdin);
 
-    puts(save.profiles[0].name);
+    puts(save.slot1.name);
+    puts(save.slot2.name);
 
     return EXIT_SUCCESS;
 }
